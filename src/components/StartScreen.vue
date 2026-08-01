@@ -3,8 +3,8 @@ import { ref } from 'vue'
 import { useQuizStore } from '../stores/quizStore'
 
 const store = useQuizStore()
-// Load default initially
-store.loadQuestions()
+// Load daily questions initially
+store.loadDailyQuestions()
 
 const showConfig = ref(false)
 const tempJson = ref<any>(null)

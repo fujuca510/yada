@@ -1,7 +1,9 @@
-import { app, BrowserWindow } from 'electron'
+import { app, BrowserWindow, ipcMain } from 'electron'
 
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
+import fs from 'node:fs'
+import fsPromises from 'node:fs/promises'
 
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
@@ -23,6 +25,46 @@ export const MAIN_DIST = path.join(process.env.APP_ROOT, 'dist-electron')
 export const RENDERER_DIST = path.join(process.env.APP_ROOT, 'dist')
 
 process.env.VITE_PUBLIC = VITE_DEV_SERVER_URL ? path.join(process.env.APP_ROOT, 'public') : RENDERER_DIST
+
+ipcMain.handle('get-daily-questions', async (_event, dateStr: string) => {
+  const fileName = `questions-${dateStr}.json`
+  const localDir = app.getPath('userData')
+  const localPath = path.join(localDir, fileName)
+
+  // 1. Check if the file exists locally
+  if (fs.existsSync(localPath)) {
+    try {
+      const data = await fsPromises.readFile(localPath, 'utf-8')
+      console.log(`Loading daily questions from local storage: ${localPath}`)
+      return JSON.parse(data)
+    } catch (error) {
+      console.error('Error reading local file:', error)
+    }
+  }
+
+  // 2. If it does not exist, download it
+  const url = `https://raw.githubusercontent.com/fujuca510/yada/main/src/assets/${fileName}`
+  console.log(`Downloading daily questions from: ${url}`)
+  try {
+    const response = await fetch(url)
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`)
+    }
+    const dataText = await response.text()
+    
+    // Validate JSON
+    const parsed = JSON.parse(dataText)
+    
+    // Save locally
+    await fsPromises.writeFile(localPath, dataText, 'utf-8')
+    console.log(`Saved daily questions to local storage: ${localPath}`)
+    
+    return parsed
+  } catch (error) {
+    console.error(`Failed to download daily questions from ${url}:`, error)
+    return null
+  }
+})
 
 let win: BrowserWindow | null
 

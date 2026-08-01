@@ -47,8 +47,33 @@ export const useQuizStore = defineStore('quiz', {
             this.gameState = 'start'
         },
 
+        async loadDailyQuestions() {
+            try {
+                const now = new Date()
+                const year = now.getFullYear()
+                const month = String(now.getMonth() + 1).padStart(2, '0')
+                const day = String(now.getDate()).padStart(2, '0')
+                const dateStr = `${year}${month}${day}`
+
+                console.log(`Solicitando preguntas para la fecha del cliente: ${dateStr}`)
+                const data = await window.ipcRenderer.invoke('get-daily-questions', dateStr)
+                if (data && data.questions) {
+                    this.loadQuestions(data)
+                } else {
+                    console.log('No se pudieron cargar las preguntas del día. Cargando valores por defecto.')
+                    this.loadQuestions()
+                }
+            } catch (error) {
+                console.error('Error al cargar preguntas dinámicas:', error)
+                this.loadQuestions()
+            }
+        },
+
         startGame() {
-            this.loadQuestions()
+            if (this.questions.length === 0) {
+                this.loadQuestions()
+            }
+            this.currentIndex = 0
             if (this.questions.length > 0) {
                 this.gameState = 'question_ready'
             } else {
