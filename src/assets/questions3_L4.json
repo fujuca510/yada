@@ -1,0 +1,68 @@
+{
+    "config": {
+        "title": "EL PECADO EN LA IGLESIA",
+        "image": "/imagen.png"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "open",
+            "question": "Versículo de memoria (1 Corintios 6:19-20)",
+            "explanation": "¿No saben que su cuerpo es templo del Espíritu Santo, que está en ustedes, que tienen de Dios, y que no son sus propios dueños? Porque han sido comprados por precio; por tanto, glorifiquen a Dios en su cuerpo y en su espíritu, los cuales son de Dios",
+            "verseReference": "1 Corintios 6:19-20",
+            "timeLimit": 5
+        },
+        {
+            "id": "2",
+            "type": "boolean",
+            "question": "La iglesia de Corinto estaba triste, apenada y avergonzada por el grave pecado de incesto que cometía uno de sus miembros.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctIndex": 1,
+            "explanation": "Los corintios estaban incluso orgullosos de sí mismos por tolerar tal pecado",
+            "verseReference": "Lección de domingo",
+            "timeLimit": 5
+        },
+        {
+            "id": "3",
+            "type": "boolean",
+            "question": "La expresión 'entreguen al tal a Satanás' significa que la iglesia debía maldecir al pecador y condenarlo a la destrucción eterna.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctIndex": 1,
+            "explanation": "'A fin de que el espíritu sea salvo' (1 Cor. 5: 5). La disciplina eclesiástica tiene un carácter rehabilitador. Su objetivo es hacer que los pecadores recobren el sentido común y abandonen su estilo de vida pecaminoso.",
+            "verseReference": "Lección de lunes",
+            "timeLimit": 5
+        },
+        {
+            "id": "4",
+            "type": "boolean",
+            "question": "El apóstol Pablo aplaudió y felicitó a los miembros de la iglesia por llevar sus pleitos y problemas internos ante los tribunales civiles.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctIndex": 1,
+            "explanation": "Pablo no estaba feliz de ver a los cristianos llevar sus asuntos ante 'los injustos' en tribunales seculares, ya que debían resolverlo como hermanos y proteger la identidad de la iglesia",
+            "verseReference": "Lección de martes",
+            "timeLimit": 5
+        },
+        {
+            "id": "5",
+            "type": "boolean",
+            "question": "Quien ha sido lavado, santificado y justificado por Cristo es llamado a vivir de manera diferente.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctIndex": 0,
+            "explanation": "Los pecados enumerados en 1 Corintios 6: 9-10, así como la inmoralidad sexual denunciada en 1 Corintios 6: 12-20, no tienen cabida en la vida de aquellos que han sido lavados, santificados y justificados.",
+            "verseReference": "Lección de miércoles",
+            "timeLimit": 5
+        }
+    ]
+}

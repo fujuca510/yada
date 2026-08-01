@@ -1,0 +1,76 @@
+{
+    "config": {
+        "title": "HUMILDAD VERSUS ORGULLO",
+        "image": "/imagen.png"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "open",
+            "question": "Versículo de memoria (Lucas 14:11)",
+            "explanation": "El que se enaltece será humillado; y el que se humilla será enaltecido",
+            "verseReference": "Lucas 14:11",
+            "timeLimit": 10
+        },
+        {
+            "id": "2",
+            "type": "multiple",
+            "question": "¿Cuál es el número de himno que se menciona en la lección de la semana?",
+            "options": [
+                "596",
+                "269",
+                "275",
+                "249"
+            ],
+            "correctIndex": 1,
+            "explanation": "Prefiero a mi Cristo, 269",
+            "verseReference": "Lección de martes",
+            "timeLimit": 10
+        },
+        {
+            "id": "3",
+            "type": "multiple",
+            "question": "En la parábola de Jesús, ¿por qué fue justificado el publicano?",
+            "options": [
+                "Sus obras",
+                "Ser publicano",
+                "Reconocerse pecador",
+                "Su oración"
+            ],
+            "correctIndex": 2,
+            "explanation": "....sé propicio a mí, pecador.",
+            "verseReference": "Lucas 18:13",
+            "timeLimit": 10
+        },
+        {
+            "id": "4",
+            "type": "multiple",
+            "question": "¿De dónde proviene nuestro verdadero valor como seres humanos?",
+            "options": [
+                "Nuestra apariencia",
+                "Logros y habilidades",
+                "Reconocimiento social",
+                "Creación y redención"
+            ],
+            "correctIndex": 3,
+            "explanation": "La lección del Sábado declara explícitamente que somos valiosos porque fuimos creados por Dios y Cristo murió por nosotros.",
+            "verseReference": "Lección del Sábado",
+            "timeLimit": 10
+        },
+        {
+            "id": "5",
+            "type": "multiple",
+            "question": "¿Qué sucede naturalmente cuando contemplamos el carácter de Cristo?",
+            "options": [
+                "Nos sentimos superiores",
+                "El orgullo desaparece",
+                "Deseamos ser grandes",
+                "Juzgamos a otros"
+            ],
+            "correctIndex": 1,
+            "explanation": "El Jueves indica que 'el orgullo seguramente desaparecerá cuando lo contemplemos a él', volviendo nuestra presunta grandeza insignificante.",
+            "verseReference": "Lección Jueves",
+            "timeLimit": 10
+        }
+    ]
+}

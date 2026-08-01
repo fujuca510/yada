@@ -1,0 +1,72 @@
+{
+    "config": {
+        "title": "COMPÁRTELO",
+        "image": "/imagen.png"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "open",
+            "question": "Versículo de memoria (Isaías 50:4)",
+            "explanation": "Dios, el Señor, me dio lengua de sabios para saber hablar palabra de aliento al cansado; mañana tras mañana me despierta el oído para que oiga como los sabios",
+            "verseReference": "Isaías 50:4",
+            "timeLimit": 5
+        },
+        {
+            "id": "2",
+            "type": "multiple",
+            "question": "¿En qué consiste realmente dar testimonio según el estudio de esta semana?",
+            "options": [
+                "Ser un predicador",
+                "Compartir versículos",
+                "Compartir nuestra experiencia"
+            ],
+            "correctIndex": 2,
+            "explanation": "el verdadero testimonio es simplemente el resultado de lo que Dios ha hecho y está haciendo en tu vida, es compartir con otros lo que aprendes",
+            "verseReference": "Lección de domingo",
+            "timeLimit": 5
+        },
+        {
+            "id": "3",
+            "type": "multiple",
+            "question": "¿Cuál fue el secreto de Pedro y Juan para testificar ante los líderes judíos?",
+            "options": [
+                "Gran educación",
+                "Conocian las profecias",
+                "Haber estado con Jesús"
+            ],
+            "correctIndex": 2,
+            "explanation": "y les reconocían que habían estado con Jesús.",
+            "verseReference": "Hechos 4:13",
+            "timeLimit": 5
+        },
+        {
+            "id": "4",
+            "type": "multiple",
+            "question": "¿Cuál debería ser normalmente el primer paso al compartir a Jesús?",
+            "options": [
+                "Hablar de profecias",
+                "Crear amistad",
+                "Dar un testimonio"
+            ],
+            "correctIndex": 1,
+            "explanation": "Desarrolla una amistad con las personas (evangelismo de la amistad).",
+            "verseReference": "Lección de martes",
+            "timeLimit": 5
+        },
+        {
+            "id": "5",
+            "type": "multiple",
+            "question": "¿Quiénes son las personas que más se desarrollan en espiritualidad y devoción?",
+            "options": [
+                "Quienes viven aislados",
+                "Quienes solo estudian",
+                "Quienes ganan almas"
+            ],
+            "correctIndex": 2,
+            "explanation": "Las personas que se ocupan más activamente en hacer con interés y fidelidad la obra que les corresponde en la tarea de ganar almas para Cristo son las que más se desarrollan en espiritualidad y devoción.",
+            "verseReference": "Lección de viernes",
+            "timeLimit": 5
+        }
+    ]
+}

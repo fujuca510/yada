@@ -1,0 +1,74 @@
+{
+    "config": {
+        "title": "LA PREEMINENCIA DE CRISTO",
+        "image": "/imagen.png"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "open",
+            "question": "Versículo de memoria (Colosenses 1:15-17)",
+            "explanation": "Cristo es la imagen del Dios invisible, el primogénito de toda la creación. Por él fueron creadas todas las cosas, las que están en los cielos y las que están en la tierra, visibles e invisibles; sean tronos, dominios, principados o autoridades. Todo fue creado por medio de él y para él. Porque Cristo existía antes de todas las cosas, y todas las cosas subsisten en él",
+            "verseReference": "Colosenses 1:15-17",
+            "timeLimit": 10
+        },
+        {
+            "id": "2",
+            "type": "multiple",
+            "question": "¿Qué hizo Jesús 'visible'?",
+            "options": [
+                "La forma de Dios",
+                "El poder de Dios",
+                "El carácter de Dios",
+                "Ninguno"
+            ],
+            "correctIndex": 2,
+            "explanation": "Él es el pensamiento de Dios hecho audible y el carácter de Dios hecho visible.",
+            "verseReference": "L. domingo",
+            "timeLimit": 10
+        },
+        {
+            "id": "3",
+            "type": "multiple",
+            "question": "¿En qué parte de la biblia dice que Cristo es cabeza de la iglesia?",
+            "options": [
+                "Efesios 1:22",
+                "Colosenses 1:38",
+                "Colosenses 1:18",
+                "Apocalipsis 1:8"
+            ],
+            "correctIndex": 2,
+            "explanation": "Y él es la cabeza del cuerpo, que es la iglesia; ...",
+            "verseReference": "Colosenses 1:18",
+            "timeLimit": 10
+        },
+        {
+            "id": "4",
+            "type": "multiple",
+            "question": "¿Fue Jesús el primero en resucitar cronológicamente en la historia?",
+            "options": [
+                "Sí",
+                "No, hubo otros antes",
+                "No se sabe",
+                "Depende"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moisés fue el primero en resucitar...",
+            "verseReference": "L. miércoles",
+            "timeLimit": 10
+        },
+        {
+            "id": "5",
+            "type": "boolean",
+            "question": "En la Biblia, el título de 'primogénito' siempre se otorga al hijo que nació primero en el tiempo.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctIndex": 1,
+            "explanation": "...el término es usado con una connotación de preeminencia...",
+            "verseReference": "L. lunes",
+            "timeLimit": 10
+        }
+    ]
+}

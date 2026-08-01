@@ -1,0 +1,76 @@
+{
+    "config": {
+        "title": "UNIDAD EN CRISTO",
+        "image": "/imagen.png"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "open",
+            "question": "Versículo de memoria (1 Corintios 1:10)",
+            "explanation": "Les ruego hermanos, por el nombre de nuestro Señor Jesucristo, que hablen todos una misma cosa y que no haya entre ustedes divisiones. Antes, estén perfectamente unidos en una misma mente y un mismo parecer",
+            "verseReference": "1 Corintios 1:10",
+            "timeLimit": 5
+        },
+        {
+            "id": "2",
+            "type": "multiple",
+            "question": "¿Cuál fue el principal problema que Pablo enfrentó en la iglesia de Corinto?",
+            "options": [
+                "Falta de dinero",
+                "Divisiones",
+                "Idolatría",
+                "Persecución"
+            ],
+            "correctIndex": 1,
+            "explanation": "La lección gira alrededor del problema de las divisiones y cómo la unidad en Cristo es la solución.",
+            "verseReference": "Lección de semana",
+            "timeLimit": 5
+        },
+        {
+            "id": "3",
+            "type": "multiple",
+            "question": "Según la enseñanza de Pablo, ¿cómo podemos vivir perfectamente unidos?",
+            "options": [
+                "Ignorando diferencias",
+                "Siguiendo tradiciones",
+                "Permaneciendo en Cristo",
+                "Pensando igual"
+            ],
+            "correctIndex": 2,
+            "explanation": "La unidad depende de la obra de Cristo en cada creyente. Jesucristo nos capacita mediante su amor y el Espíritu Santo para vivir en armonía.",
+            "verseReference": "Lección de semana",
+            "timeLimit": 5
+        },
+        {
+            "id": "4",
+            "type": "multiple",
+            "question": "¿Qué comportamiento demostraba la inmadurez espiritual de los corintios?",
+            "options": [
+                "Celos y rivalidad",
+                "Falta de conocimiento",
+                "Servicio humilde",
+                "Sus disputas teológicas"
+            ],
+            "correctIndex": 0,
+            "explanation": "Pablo criticó a los corintios por sus celos, rivalidad y falta de unidad (Yo soy de Pablo...).",
+            "verseReference": "1 Corintios 1:12",
+            "timeLimit": 5
+        },
+        {
+            "id": "5",
+            "type": "multiple",
+            "question": "¿Qué enseñanza de Jesús define el verdadero liderazgo cristiano?",
+            "options": [
+                "Mandar a los demás",
+                "Ser servido",
+                "Servir a los demás",
+                "Recibir honores"
+            ],
+            "correctIndex": 2,
+            "explanation": "La lección relaciona el liderazgo cristiano con el ejemplo de Jesús, quien no vino para ser servido, sino para servir. El liderazgo bíblico se basa en la humildad y el servicio.",
+            "verseReference": "Lección de semana",
+            "timeLimit": 5
+        }
+    ]
+}

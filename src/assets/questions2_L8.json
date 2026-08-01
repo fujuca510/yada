@@ -1,0 +1,76 @@
+{
+    "config": {
+        "title": "LA FE",
+        "image": "/imagen.png"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "open",
+            "question": "Versículo de memoria (Hebreos 11:1)",
+            "explanation": "La fe es la certeza de lo que esperamos, la convicción de lo que no vemos",
+            "verseReference": "Hebreos 11:1",
+            "timeLimit": 5
+        },
+        {
+            "id": "2",
+            "type": "multiple",
+            "question": "Según Romanos 12:3, ¿de dónde proviene la fe que poseemos?",
+            "options": [
+                "De ver milagros",
+                "Esfuerzo propio",
+                "Un don de Dios",
+                "El intelecto"
+            ],
+            "correctIndex": 2,
+            "explanation": "La fe es un don de Dios que se recibe por medio de Su Espíritu Santo.",
+            "verseReference": "Lección de domingo",
+            "timeLimit": 5
+        },
+        {
+            "id": "3",
+            "type": "multiple",
+            "question": "¿Qué es lo que realmente necesitaba el pueblo en lugar de señales externas?",
+            "options": [
+                "Ilustración intelectual",
+                "Pruebas cientificas",
+                "Señales internas",
+                "Renovación espiritual"
+            ],
+            "correctIndex": 3,
+            "explanation": "Lo que necesitaban no era ilustración intelectual, sino renovación espiritua",
+            "verseReference": "Lección de domingo",
+            "timeLimit": 5
+        },
+        {
+            "id": "4",
+            "type": "multiple",
+            "question": "Según Romanos 10:17, ¿cuál es el medio por el cual se genera y fortalece la fe?",
+            "options": [
+                "Ver milagros",
+                "Oír la palabra de Dios",
+                "Sentirse cerca de Dios",
+                "Esfuerzo propio"
+            ],
+            "correctIndex": 1,
+            "explanation": "La fe es el resultado de escuchar a Dios hablándonos por medio de su Palabra",
+            "verseReference": "Lección de miércoles",
+            "timeLimit": 5
+        },
+        {
+            "id": "5",
+            "type": "multiple",
+            "question": "¿Qué significa 'tener la fe de Jesús'?",
+            "options": [
+                "Creer sin razonar",
+                "Jesús y su fe habita en nosotros",
+                "Sanar a los enfermos",
+                "Ninguno"
+            ],
+            "correctIndex": 1,
+            "explanation": "Tener la fe de Jesús significa que él y su fe habita en nosotros pues él es el verdadero fundamento de nuestra fe.",
+            "verseReference": "Lección de jueves",
+            "timeLimit": 5
+        }
+    ]
+}

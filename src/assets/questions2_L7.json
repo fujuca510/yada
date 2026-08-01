@@ -1,0 +1,76 @@
+{
+    "config": {
+        "title": "LA ORACIÓN",
+        "image": "/imagen.png"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "open",
+            "question": "Versículo de memoria (Salmos 62:8)",
+            "explanation": "Pueblos, esperen en él en todo tiempo, derramen ante él su corazón. Dios es nuestro refugio",
+            "verseReference": "Salmos 62:8",
+            "timeLimit": 5
+        },
+        {
+            "id": "2",
+            "type": "multiple",
+            "question": "En el Padrenuestro, ¿qué implica la frase 'Venga tu reino' según el estudio?",
+            "options": [
+                "Establecer poder político",
+                "Anhelar la Segunda Venida",
+                "Evitar todo sufrimiento",
+                "Prosperidad material"
+            ],
+            "correctIndex": 1,
+            "explanation": "Anhelemos el regreso de Jesús y la presencia del Espíritu Santo hasta que ocurra la Segunda Venida",
+            "verseReference": "Lección de martes",
+            "timeLimit": 5
+        },
+        {
+            "id": "3",
+            "type": "multiple",
+            "question": "¿Qué nos enseña el ejemplo de Ana sobre la oración?",
+            "options": [
+                "Orar en público",
+                "Persistir en la oración",
+                "Orar en voz alta",
+                "Exigir respuesta inmediata"
+            ],
+            "correctIndex": 1,
+            "explanation": "pero ella persistió y Dios respondió de acuerdo con su voluntad en el momento perfecto.",
+            "verseReference": "Lección de lunes",
+            "timeLimit": 5
+        },
+        {
+            "id": "4",
+            "type": "multiple",
+            "question": "¿Cuáles son los mayores obstáculos para una sólida vida de oración?",
+            "options": [
+                "Cansancio y sueño",
+                "Ignorancia y duda",
+                "Autosuficiencia y orgullo",
+                "Trabajo y estudio"
+            ],
+            "correctIndex": 2,
+            "explanation": "La autosuficiencia y el orgullo... pueden ser algunos de los mayores obstáculos para una sólida vida de oración.",
+            "verseReference": "Lección de jueves",
+            "timeLimit": 5
+        },
+        {
+            "id": "5",
+            "type": "multiple",
+            "question": "Cuando oramos pidiendo algo, ¿qué debemos buscar antes que nada?",
+            "options": [
+                "Cumplir nuestro deseo",
+                "Respuesta inmediata",
+                "La voluntad de Dios",
+                "Pedir cosas grandes"
+            ],
+            "correctIndex": 2,
+            "explanation": "Procura que se cumpla la voluntad de Dios, no la tuya.",
+            "verseReference": "Lección de lunes",
+            "timeLimit": 5
+        }
+    ]
+}

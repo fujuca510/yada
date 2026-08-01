@@ -1,0 +1,74 @@
+{
+    "config": {
+        "title": "EL PECADO, EL EVANGELIO Y LA LEY",
+        "image": "/imagen.png"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "open",
+            "question": "Versículo de memoria (Salmos 119:93, 94)",
+            "explanation": "Jamás olvidaré tus mandamientos, porque con ellos me has vivificado. Tuyo soy; sálvame porque he buscado tus mandamientos",
+            "verseReference": "Salmos 119:93, 94",
+            "timeLimit": 5
+        },
+        {
+            "id": "2",
+            "type": "multiple",
+            "question": "¿Cuál es la función principal de la Ley de Dios respecto al pecado?",
+            "options": [
+                "Perdonar el pecado",
+                "Señalar el pecado",
+                "Salvarnos",
+                "Ninguno"
+            ],
+            "correctIndex": 1,
+            "explanation": "Romanos 3:20 y la lección enseñan que la Ley señala y pone de manifiesto el pecado, pero no puede perdonar ni justificar.",
+            "verseReference": "Lección de martes",
+            "timeLimit": 5
+        },
+        {
+            "id": "3",
+            "type": "multiple",
+            "question": "Según Isaías 59:2, ¿qué hace el pecado en nuestra relación con Dios?",
+            "options": [
+                "Nos debilita",
+                "Nos confunde",
+                "Nos separa de Dios",
+                "Nos hace dormir"
+            ],
+            "correctIndex": 2,
+            "explanation": "Isaías 59:2: el pecado 'nos separa de Dios'",
+            "verseReference": "Lección de sábado",
+            "timeLimit": 5
+        },
+        {
+            "id": "4",
+            "type": "multiple",
+            "question": "Según la lección, ¿con qué propósito dio Dios la Ley?",
+            "options": [
+                "Salvarnos directamente",
+                "Proteger nuestras relaciones",
+                "Mostrarnos su poder",
+                "Ninguno"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios proveyó la Ley como una salvaguardia para proteger nuestra relación con él y con los demás",
+            "verseReference": "Lección de martes",
+            "timeLimit": 5
+        },
+        {
+            "id": "5",
+            "type": "boolean",
+            "question": "Hacer la voluntad de Dios es un requisito secundario para entrar en el Cielo.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctIndex": 1,
+            "explanation": "No es un requisito secundario, sino esencial. Mateo 7:21 dice: 'No todo el que me dice: Señor, Señor, entrará en el reino de los cielos, sino el que hace la voluntad de mi Padre'.",
+            "verseReference": "Lección de jueves",
+            "timeLimit": 5
+        }
+    ]
+}

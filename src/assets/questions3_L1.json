@@ -1,0 +1,76 @@
+{
+    "config": {
+        "title": "EL MINISTERIO DE PABLO EN CORINTO",
+        "image": "/imagen.png"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "open",
+            "question": "Versículo de memoria (Hechos 18:9,10)",
+            "explanation": "Entonces el Señor dijo a Pablo en una visión nocturna: “No temas. Sigue hablando y no calles, que yo estoy contigo, y ninguno te podrá dañar; pues tengo mucho pueblo en esta ciudad",
+            "verseReference": "Hechos 18:9,10",
+            "timeLimit": 5
+        },
+        {
+            "id": "2",
+            "type": "multiple",
+            "question": "¿Cuál era el oficio que Pablo realizaba para sustentar su ministerio?",
+            "options": [
+                "Carpintero",
+                "Fabricante de tiendas",
+                "Pescador",
+                "Tejedor de lino"
+            ],
+            "correctIndex": 1,
+            "explanation": "Pablo fabricaba tiendas de campaña para ganarse la vida mientras proclamaba el evangelio",
+            "verseReference": "Lección de sábado",
+            "timeLimit": 5
+        },
+        {
+            "id": "3",
+            "type": "multiple",
+            "question": "¿Cuánto tiempo aproximado estuvo Pablo en Corinto?",
+            "options": [
+                "Un año",
+                "Dos años",
+                "Un año y medio",
+                "Seis meses"
+            ],
+            "correctIndex": 2,
+            "explanation": "Pablo fue a Corinto durante su segundo viaje misionero y permaneció allí un año y medio, según Lucas.",
+            "verseReference": "Lección de lunes",
+            "timeLimit": 5
+        },
+        {
+            "id": "4",
+            "type": "multiple",
+            "question": "¿Por qué Pablo se sentía con 'temor y temblor' en Corinto?",
+            "options": [
+                "Enfermedad",
+                "Falta de fe",
+                "Temor a fracasar",
+                "Oposición previa"
+            ],
+            "correctIndex": 3,
+            "explanation": "Tuvo que partir de Berea a Atenas debido a la firme oposición enfrentada. Parece que pensó que tendría que abandonar Corinto por la misma razón.",
+            "verseReference": "Lección de miércoles",
+            "timeLimit": 5
+        },
+        {
+            "id": "5",
+            "type": "multiple",
+            "question": "¿Qué factores influenciaban negativamente a los corintios?",
+            "options": [
+                "Pobreza y hambre",
+                "Riqueza, poder, competencia",
+                "Educación y filosofía",
+                "Falta de comercio"
+            ],
+            "correctIndex": 1,
+            "explanation": "Valoraban la competencia, el poder y la riqueza, cosas que pueden también representar un desafío para nuestra iglesia.",
+            "verseReference": "Lección de viernes",
+            "timeLimit": 5
+        }
+    ]
+}

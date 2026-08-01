@@ -1,0 +1,76 @@
+{
+    "config": {
+        "title": "BRILLAR COMO LUCES EN LA NOCHE",
+        "image": "/imagen.png"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "open",
+            "question": "Versículo de memoria (Filipenses 2:14, 15)",
+            "explanation": "Hagan todo sin queja ni discusión, para que sean irreprensibles y sencillos, hijos de Dios sin culpa en medio de una generación torcida y perversa, en la cual ustedes resplandecen como luces en el mundo",
+            "verseReference": "Filipenses 2:14, 15",
+            "timeLimit": 10
+        },
+        {
+            "id": "2",
+            "type": "multiple",
+            "question": "¿Cuál es el ejemplo perfecto de humildad mencionado por Pablo?",
+            "options": [
+                "Los filipenses",
+                "Los ángeles",
+                "Jesús",
+                "Timoteo"
+            ],
+            "correctIndex": 2,
+            "explanation": "sino que se despojó a sí mismo, tomando forma de siervo, hecho semejante a los hombres",
+            "verseReference": "Filipenses 2:7",
+            "timeLimit": 10
+        },
+        {
+            "id": "3",
+            "type": "multiple",
+            "question": "¿Quién produce en nosotros el querer y el hacer?",
+            "options": [
+                "Nosotros mismos",
+                "La iglesia",
+                "Dios",
+                "La ley"
+            ],
+            "correctIndex": 2,
+            "explanation": "Porque Dios nos produce en nosotros el querer y el hacer..",
+            "verseReference": "Filipenses 2:13",
+            "timeLimit": 10
+        },
+        {
+            "id": "4",
+            "type": "multiple",
+            "question": "¿Cómo debemos ocuparnos en nuestra salvación según el texto?",
+            "options": [
+                "Sin ninguna preocupación",
+                "Con preocupación",
+                "Con temor y temblor",
+                "Con ansiedad"
+            ],
+            "correctIndex": 2,
+            "explanation": "... ocupaos en vuestra salvación con temor y temblor",
+            "verseReference": "Filipenses 2:12",
+            "timeLimit": 10
+        },
+        {
+            "id": "5",
+            "type": "multiple",
+            "question": "¿Qué característica destaca Pablo en Timoteo?",
+            "options": [
+                "Inteligencia",
+                "Carácter probado",
+                "Juventud",
+                "Elocuencia"
+            ],
+            "correctIndex": 1,
+            "explanation": "Pero ya conocéis los méritos de él, que como hijo a padre ha servido conmigo en el evangelio.",
+            "verseReference": "Filipenses 2:22",
+            "timeLimit": 10
+        }
+    ]
+}

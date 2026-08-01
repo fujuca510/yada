@@ -1,0 +1,76 @@
+{
+    "config": {
+        "title": "CONTRATIEMPOS",
+        "image": "/imagen.png"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "open",
+            "question": "Versículo de memoria (Romanos 5:3-5)",
+            "explanation": "Y no solo esto, sino que nos alegramos aun en las tribulaciones, al saber que la tribulación produce paciencia; y la paciencia produce un carácter probado; y el carácter alienta esperanza, y la esperanza no defrauda, porque el amor de Dios está vertido en nuestro corazón por medio del Espíritu Santo que nos ha sido dado",
+            "verseReference": "Romanos 5:3-5",
+            "timeLimit": 5
+        },
+        {
+            "id": "2",
+            "type": "multiple",
+            "question": "¿Qué produce la tribulación según Romanos 5:3-5?",
+            "options": [
+                "Desánimo",
+                "Paciencia",
+                "Tristeza",
+                "Enojo"
+            ],
+            "correctIndex": 1,
+            "explanation": "La tribulación produce paciencia.",
+            "verseReference": "Romanos 5:3-5",
+            "timeLimit": 5
+        },
+        {
+            "id": "3",
+            "type": "multiple",
+            "question": "¿Qué nos enseña el hecho de que Jesús durmiera durante la tormenta?",
+            "options": [
+                "Su cansancio",
+                "No le importaba",
+                "Su confianza en Dios",
+                "Ninguno"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jesús nos muestra que incluso en medio de la tempestad, podemos tener paz si confiamos en Dios",
+            "verseReference": "Lección de domingo",
+            "timeLimit": 5
+        },
+        {
+            "id": "4",
+            "type": "multiple",
+            "question": "¿Quién o qué causó el sufrimiento de Job?",
+            "options": [
+                "Sus pecados",
+                "Sus acciones",
+                "Satanás",
+                "Ninguno"
+            ],
+            "correctIndex": 2,
+            "explanation": "El libro de Job enfatiza que es Satanás quien inicia el sufrimiento en la raza humana (Job 1:12).",
+            "verseReference": "Lección de martes",
+            "timeLimit": 5
+        },
+        {
+            "id": "5",
+            "type": "multiple",
+            "question": "¿Qué lección aprendemos de Jesús al caminar con los discípulos a Emaús?",
+            "options": [
+                "Dios nos acompaña",
+                "Debemos tener dudas",
+                "El camino es largo",
+                "Ninguno"
+            ],
+            "correctIndex": 0,
+            "explanation": "Olvidamos con frecuencia que Jesús camina a nuestro lado en nuestros valles sombríos (Lección de jueves).",
+            "verseReference": "Lucas miércoles",
+            "timeLimit": 5
+        }
+    ]
+}

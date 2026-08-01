@@ -1,0 +1,76 @@
+{
+    "config": {
+        "title": "UNA CIUDADANÍA CELESTIAL",
+        "image": "/imagen.png"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "open",
+            "question": "Versículo de memoria (Filipenses 4:6)",
+            "explanation": "Por nada estén afanosos, sino presenten sus pedidos a Dios en oración, ruego y acción de gracias",
+            "verseReference": "Filipenses 4:6",
+            "timeLimit": 10
+        },
+        {
+            "id": "2",
+            "type": "multiple",
+            "question": "¿Cuál es el verdadero antídoto contra la ansiedad según Filipenses 4:6-7?",
+            "options": [
+                "La relajación",
+                "Los medicamentos",
+                "Orar con gratitud",
+                "Pensar positivo"
+            ],
+            "correctIndex": 2,
+            "explanation": "Por nada estéis afanosos, sino sean conocidas vuestras peticiones delante de Dios en toda oración y ruego, con acción de gracias.",
+            "verseReference": "Filipenses 4:6",
+            "timeLimit": 10
+        },
+        {
+            "id": "3",
+            "type": "multiple",
+            "question": "¿Cuál es el 'superpoder' de Pablo para estar feliz?",
+            "options": [
+                "Mentalidad positiva",
+                "Tener suerte",
+                "Plenitud de conciencia",
+                "Cristo fortalece"
+            ],
+            "correctIndex": 3,
+            "explanation": "Todo lo puedo en Cristo que me fortalece.",
+            "verseReference": "Filipenses 4:13",
+            "timeLimit": 10
+        },
+        {
+            "id": "4",
+            "type": "multiple",
+            "question": "En qué parte de la Biblia Jesús dice: 'La paz os dejo, mi paz os doy'",
+            "options": [
+                "Juan 16:33",
+                "Juan 17:14",
+                "Mateo 5:9",
+                "Juan 14:27"
+            ],
+            "correctIndex": 3,
+            "explanation": "La paz os dejo, mi paz os doy; yo no os la doy como el mundo la da. No se turbe vuestro corazón, ni tenga miedo.",
+            "verseReference": "Juan 14:27",
+            "timeLimit": 10
+        },
+        {
+            "id": "5",
+            "type": "multiple",
+            "question": "¿Cuál es son las virtudes que Pablo menciona en filpenses 4?",
+            "options": [
+                "Lo Verdadero, y Puro",
+                "Lo Honorable, Lo Justo",
+                "De buen nombre, y Agradable",
+                "Todos"
+            ],
+            "correctIndex": 3,
+            "explanation": "Por lo demás, hermanos, todo lo que es verdadero, todo lo honesto, todo lo justo, todo lo puro, todo lo amable, todo lo que es de buen nombre; si hay virtud alguna, si algo digno de alabanza, en esto pensad.",
+            "verseReference": "Filipenses 4:8",
+            "timeLimit": 10
+        }
+    ]
+}

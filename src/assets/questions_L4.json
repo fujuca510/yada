@@ -1,0 +1,76 @@
+{
+    "config": {
+        "title": "UNIDAD MEDIANTE LA HUMILDAD",
+        "image": "/imagen.png"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "open",
+            "question": "Versículo de memoria (Filipenses 2:2)",
+            "explanation": "Completen mi gozo, tengan el mismo sentir, el mismo amor, unánimes, sintiendo una misma cosa",
+            "verseReference": "Filipenses 2:2",
+            "timeLimit": 10
+        },
+        {
+            "id": "2",
+            "type": "multiple",
+            "question": "¿Qué sentimiento dio origen a la desunión en el Cielo?",
+            "options": [
+                "Desobediencia",
+                "Orgullo",
+                "Discusiones",
+                "Ninguno"
+            ],
+            "correctIndex": 1,
+            "explanation": "...decías en tu corazón: Subiré al cielo; en lo alto, junto a las estrellas de Dios, levantaré mi trono...",
+            "verseReference": "Isaías 14:12-15",
+            "timeLimit": 10
+        },
+        {
+            "id": "3",
+            "type": "multiple",
+            "question": "¿Nosotros podemos cambiar nuestra manera de pensar o el corazón?",
+            "options": [
+                "Manera de pensar",
+                "El corazón",
+                "A y B",
+                "Ninguno"
+            ],
+            "correctIndex": 0,
+            "explanation": "podemos cambiar nuestra manera de pensar, pero no nuestro corazón; solo Dios puede hacerlo.",
+            "verseReference": "Lección de Martes",
+            "timeLimit": 10
+        },
+        {
+            "id": "4",
+            "type": "multiple",
+            "question": "¿Quién puede calmar las contiendas y llevarnos a la unidad?",
+            "options": [
+                "El pastor",
+                "Nosotros",
+                "El Espíritu Santo",
+                "Los ancianos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Si hay disputas en la iglesia, el Espíritu Santo puede calmar...",
+            "verseReference": "Lección de Lunes",
+            "timeLimit": 10
+        },
+        {
+            "id": "5",
+            "type": "multiple",
+            "question": "Que lo infinito y eterno se convierta en finito y sujeto a la muerte, es considerado como el misterio de…",
+            "options": [
+                "La piedad",
+                "La iniquidad",
+                "La voluntad",
+                "La verdad"
+            ],
+            "correctIndex": 0,
+            "explanation": "...grande es el misterio de la piedad: Dios fue manifestado en carne...",
+            "verseReference": "1 Tim. 3:16",
+            "timeLimit": 10
+        }
+    ]
+}

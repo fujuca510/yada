@@ -1,0 +1,74 @@
+{
+    "config": {
+        "title": "GUERREROS DE ORACIÓN",
+        "image": "/imagen.png"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "open",
+            "question": "Versículo de memoria (Salmos 116:1-2)",
+            "explanation": "Amo al Señor, porque ha escuchado mi voz y mis súplicas, porque ha inclinado a mí su oído, por eso lo invocaré mientras yo viva",
+            "verseReference": "Salmos 116:1-2",
+            "timeLimit": 5
+        },
+        {
+            "id": "2",
+            "type": "multiple",
+            "question": "¿Cuántos años caminó Enoc con Dios?",
+            "options": [
+                "900",
+                "365",
+                "300",
+                "275"
+            ],
+            "correctIndex": 2,
+            "explanation": "Caminó con Dios durante trescientos años",
+            "verseReference": "Lección de martes",
+            "timeLimit": 5
+        },
+        {
+            "id": "3",
+            "type": "multiple",
+            "question": "¿Qué ventaja tiene orar en voz audible frente a orar solo mentalmente?",
+            "options": [
+                "Asusta al enemigo",
+                "Evita distracciones",
+                "Dios oye mejor",
+                "Es más santo"
+            ],
+            "correctIndex": 1,
+            "explanation": "Sin embargo, hay una ventaja en el hecho de orar audiblemente, ya que cuando lo hacemos solo mentalmente es más factible que el pensamiento se desvíe hacia otros temas.",
+            "verseReference": "Lección de martes",
+            "timeLimit": 5
+        },
+        {
+            "id": "4",
+            "type": "multiple",
+            "question": "¿Qué postura física es la ÚNICA que la Biblia exige para que la oración sea válida?",
+            "options": [
+                "Estar de pie",
+                "Postrado en tierra",
+                "Estar de rodillas",
+                "Ninguna en particular"
+            ],
+            "correctIndex": 3,
+            "explanation": "La Biblia no exige una en particular.",
+            "verseReference": "Lección de lunes",
+            "timeLimit": 5
+        },
+        {
+            "id": "5",
+            "type": "boolean",
+            "question": "¿Moisés se negó a interceder por María porque ella lo había tratado mal por envidia?",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctIndex": 1,
+            "explanation": "Lo más sorprendente de la interacción en favor de María es que Moisés fue el destinatario de su maltrato y envidia.",
+            "verseReference": "Lección de miércoles",
+            "timeLimit": 5
+        }
+    ]
+}

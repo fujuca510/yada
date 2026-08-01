@@ -1,0 +1,74 @@
+{
+    "config": {
+        "title": "VIVIR CON CRISTO",
+        "image": "/imagen.png"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "open",
+            "question": "Versículo de memoria (Colosenses 3:14)",
+            "explanation": "Y sobre todo, vístanse de amor, que es el vínculo de la perfección",
+            "verseReference": "Colosenses 3:14",
+            "timeLimit": 10
+        },
+        {
+            "id": "2",
+            "type": "boolean",
+            "question": "Despojarse del viejo hombre se refiere a quitar sus hechos pecaminosos.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctIndex": 0,
+            "explanation": "Despojarse del viejo hombre se refiere a quitar sus hechos pecaminosos.",
+            "verseReference": "habiéndose despojado del viejo hombre con sus prácticas (Col. 3:9).",
+            "timeLimit": 10
+        },
+        {
+            "id": "3",
+            "type": "multiple",
+            "question": "¿Cómo se manifiesta la 'ira de Dios' según la explicación dada de Rom. 1?",
+            "options": [
+                "Pruebas de fe",
+                "Fuego y destrucción",
+                "Entregarlos a sus caminos",
+                "Castigo físico"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios “entrega” a las personas a sus propios caminos perversos",
+            "verseReference": "L. lunes",
+            "timeLimit": 10
+        },
+        {
+            "id": "4",
+            "type": "multiple",
+            "question": "¿Cuál es considerada como el gran 'vínculo de la perfección'?",
+            "options": [
+                "La fe",
+                "El amor",
+                "La esperanza",
+                "La paciencia"
+            ],
+            "correctIndex": 1,
+            "explanation": "Y sobre todo, vístanse de amor, que es el vínculo de la perfección",
+            "verseReference": "Col. 3:14",
+            "timeLimit": 10
+        },
+        {
+            "id": "5",
+            "type": "multiple",
+            "question": "Según la lección, el 'argumento más poderoso en favor del evangelio'",
+            "options": [
+                "La predicación elocuente",
+                "Los milagros visibles",
+                "Las profecias cumplidas",
+                "Un cristiano amante y amable"
+            ],
+            "correctIndex": 3,
+            "explanation": "El argumento más poderoso en favor del evangelio es un cristiano amante y amable.",
+            "verseReference": "E. White, El ministerio de curación, 372",
+            "timeLimit": 10
+        }
+    ]
+}

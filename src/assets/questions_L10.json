@@ -1,0 +1,72 @@
+{
+    "config": {
+        "title": "COMPLETOS EN CRISTO",
+        "image": "/imagen.png"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "open",
+            "question": "Versículo de memoria (Colosenses 2:16,17)",
+            "explanation": "Por tanto, nadie los juzgue en comida o bebida, o en días de fiesta, nuevas lunas o sábados. Todo esto era sombra de lo que iba a venir, pero la realidad es Cristo",
+            "verseReference": "Colosenses 2:16,17",
+            "timeLimit": 10
+        },
+        {
+            "id": "2",
+            "type": "boolean",
+            "question": "La 'circuncisión del corazón' es una transformación interior que se simboliza por el bautismo por inmersión.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctIndex": 0,
+            "explanation": "Pablo conecta entonces este cambio interior con la acción de “despojarse de su cuerpo pecaminoso carnal” y con el bautismo por inmersión.",
+            "verseReference": "L. martes",
+            "timeLimit": 10
+        },
+        {
+            "id": "3",
+            "type": "multiple",
+            "question": "¿Qué era “sombra de lo que había de venir”?",
+            "options": [
+                "Diez mandamientos",
+                "Sacrificios ceremoniales",
+                "Creación del mundo",
+                "Todos"
+            ],
+            "correctIndex": 1,
+            "explanation": ".Estos días ceremoniales, al igual que los sacrificios, señalaban la obra de Cristo",
+            "verseReference": "L. miércoles",
+            "timeLimit": 10
+        },
+        {
+            "id": "4",
+            "type": "multiple",
+            "question": "¿a qué se refiere específicamente el 'sábado' mencionado en Col. 2:16?",
+            "options": [
+                "séptimo día",
+                "sábado judío",
+                "sábado cristiano",
+                "sábados ceremoniales"
+            ],
+            "correctIndex": 3,
+            "explanation": "Cuando consideramos el contexto más amplio del versículo, notamos que está hablando claramente de la ley ceremonial.",
+            "verseReference": "L. martes",
+            "timeLimit": 10
+        },
+        {
+            "id": "5",
+            "type": "boolean",
+            "question": "La mención de 'comida y bebida' en Colosenses 2:16 hacen referencia a los alimentos inmundos.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctIndex": 1,
+            "explanation": "La expresión “comida y bebida” se refiere a las ofrendas que los israelitas llevaban al Templo.",
+            "verseReference": "L. miércoles",
+            "timeLimit": 10
+        }
+    ]
+}

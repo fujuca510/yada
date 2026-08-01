@@ -1,0 +1,74 @@
+{
+    "config": {
+        "title": "CÓMO ESTUDIAR LA BIBLIA",
+        "image": "/imagen.png"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "open",
+            "question": "Versículo de memoria (Isaías 55:11)",
+            "explanation": "Así será mi palabra que sale de mi boca, no volverá a mí vacía, antes hará lo que yo quiero, y prosperará en lo que le ordené",
+            "verseReference": "Isaías 55:11",
+            "timeLimit": 5
+        },
+        {
+            "id": "2",
+            "type": "multiple",
+            "question": "Según lo estudiado, ¿en qué consiste la vida eterna?",
+            "options": [
+                "Guardar los mandamientos",
+                "Vivir para siempre",
+                "Conocer a Dios",
+                "Ir al cielo"
+            ],
+            "correctIndex": 2,
+            "explanation": "Como dice Juan, la vida eterna consiste en conocer a Dios cada día (Juan 17:3)",
+            "verseReference": "Lección de miércoles",
+            "timeLimit": 5
+        },
+        {
+            "id": "3",
+            "type": "multiple",
+            "question": "¿En qué consiste la 'doble bendición'?",
+            "options": [
+                "Leer dos veces la biblia",
+                "Orar y Ayunar",
+                "Estudiar mañana y noche",
+                "Compartir la Palabra"
+            ],
+            "correctIndex": 3,
+            "explanation": "Al compartir lo aprendido, se motiva a otros y se consolida el conocimiento propio.",
+            "verseReference": "Lección de miércoles",
+            "timeLimit": 5
+        },
+        {
+            "id": "4",
+            "type": "boolean",
+            "question": "Según el Salmo 119:105, la Palabra de Dios es comparada con la miel del panal",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctIndex": 1,
+            "explanation": "La comparación con la miel está en el Salmo 119:103",
+            "verseReference": "Lección de jueves",
+            "timeLimit": 5
+        },
+        {
+            "id": "5",
+            "type": "multiple",
+            "question": "¿Cuántos días pueden tardar en formarse los nuevos hábitos?",
+            "options": [
+                "Siete días",
+                "Al menos veintiún días",
+                "Un mes",
+                "Tres meses"
+            ],
+            "correctIndex": 1,
+            "explanation": "Recuerda que los nuevos hábitos pueden tardar al menos 21 días en formarse",
+            "verseReference": "Lección de domingo",
+            "timeLimit": 5
+        }
+    ]
+}

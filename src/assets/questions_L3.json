@@ -1,0 +1,89 @@
+{
+    "config": {
+        "title": "VIDA Y MUERTE",
+        "image": "/imagen.png"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "open",
+            "question": "Versículo de memoria (Filipenses 1:21)",
+            "explanation": "Para mí el vivir es Cristo, y el morir es ganancia.",
+            "verseReference": "Filipenses 1:21",
+            "timeLimit": 10
+        },
+        {
+            "id": "2",
+            "type": "multiple",
+            "question": "¿Cuál es nuestra arma mas poderosa según Efesios 6:17?",
+            "options": [
+                "La Palabra de Dios",
+                "La Biblia",
+                "El evangelio",
+                "Todos"
+            ],
+            "correctIndex": 3,
+            "explanation": "Y tomad el yelmo de la salvación, y la espada del Espíritu, que es la palabra de Dios.",
+            "verseReference": "Efesios 6:17",
+            "timeLimit": 10
+        },
+        {
+            "id": "3",
+            "type": "multiple",
+            "question": "¿Cuál fue el tema clave en la última oración de Jesús?",
+            "options": [
+                "No tener temor",
+                "La unidad de la iglesia",
+                "Tener Confianza",
+                "Ninguno"
+            ],
+            "correctIndex": 1,
+            "explanation": "... sean uno, como lo somos nosotros",
+            "verseReference": "Juan 17:11",
+            "timeLimit": 10
+        },
+        {
+            "id": "4",
+            "type": "multiple",
+            "question": "¿Qué es indispensable para la unidad de la iglesia, según Jesús y Pablo?",
+            "options": [
+                "Practicar Justicia",
+                "Amar la bondad",
+                "Andar humildemente",
+                "Todos"
+            ],
+            "correctIndex": 3,
+            "explanation": ".. practicar la justicia, amar la bondad y andar humildemente con tu Dios",
+            "verseReference": "Miqueas 6:8",
+            "timeLimit": 10
+        },
+        {
+            "id": "5",
+            "type": "boolean",
+            "question": "La unidad, la verdad y la misión son las 3 claves para fortalecer la iglesia",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctIndex": 0,
+            "explanation": "... Estas tres claves se mantienen juntas o caen juntas",
+            "verseReference": "Jueves 15",
+            "timeLimit": 10
+        },
+        {
+            "id": "6",
+            "type": "multiple",
+            "question": "¿Cuál es la verdadera fortaleza, según la lección de lunes?",
+            "options": [
+                "La fuerza",
+                "La razón",
+                "Hablar fuerte",
+                "Todos"
+            ],
+            "correctIndex": 1,
+            "explanation": "“la fuerza hace a la razón”, la verdadera fortaleza es el resultado de la última",
+            "verseReference": "Lunes 12",
+            "timeLimit": 10
+        }
+    ]
+}
